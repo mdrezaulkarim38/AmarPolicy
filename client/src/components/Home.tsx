@@ -1,11 +1,10 @@
-import NavBar from "./Header";
+import Header from "./Header";
 
 function Home(){
     return (
         <>
-        
 		<div className="main-wrapper">
-            <NavBar />            
+            <Header />            
 			<section className="section section-search">
 				<div className="container-fluid">
 					<div className="banner-wrapper">
