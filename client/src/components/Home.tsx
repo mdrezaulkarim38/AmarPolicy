@@ -1,5 +1,27 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import specialities1 from "../assets/img/specialities/specialities-01.png"
+import specialities2 from "../assets/img/specialities/specialities-02.png"
+import specialities3 from "../assets/img/specialities/specialities-03.png"
+import specialities4 from "../assets/img/specialities/specialities-04.png"
+import specialities5 from "../assets/img/specialities/specialities-05.png"
+
+import Doctor01 from "../assets/img/doctors/doctor-01.jpg"
+import Doctor02 from "../assets/img/doctors/doctor-02.jpg"
+import Doctor03 from "../assets/img/doctors/doctor-03.jpg"
+import Doctor04 from "../assets/img/doctors/doctor-04.jpg"
+import Doctor05 from "../assets/img/doctors/doctor-05.jpg"
+import Doctor06 from "../assets/img/doctors/doctor-06.jpg"
+import Doctor07 from "../assets/img/doctors/doctor-07.jpg"
+import Doctor08 from "../assets/img/doctors/doctor-08.jpg"
+
+import Features01 from "../assets/img/features/feature.png"
+import Features001 from "../assets/img/features/feature-01.jpg"
+import Features02 from "../assets/img/features/feature-02.jpg"
+import Features03 from "../assets/img/features/feature-03.jpg"
+import Features04 from "../assets/img/features/feature-04.jpg"
+import Features05 from "../assets/img/features/feature-05.jpg"
+import Features06 from "../assets/img/features/feature-06.jpg"
 
 function Home(){
     return (
@@ -46,7 +68,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="../assets/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
+										<img src={specialities1} className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>
 									<p>Urology</p>
@@ -54,7 +76,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="../assets/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
+										<img src={specialities2} className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>
 									<p>Neurology</p>	
@@ -62,7 +84,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="../assets/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
+										<img src={specialities3} className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Orthopedic</p>	
@@ -70,7 +92,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="../assets/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
+										<img src={specialities4} className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Cardiologist</p>	
@@ -78,7 +100,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="../assets/img/specialities/specialities-05.png" className="img-fluid" alt="Speciality" />
+										<img src={specialities5} className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Dentist</p>
@@ -113,7 +135,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-01.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor01} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -159,7 +181,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-02.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor02} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -205,7 +227,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-03.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor03} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -251,7 +273,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-04.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor04} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -297,7 +319,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-05.jpg"/>
+											<img className="img-fluid" alt="User Image" src={Doctor05} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -343,7 +365,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-06.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor06} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -389,7 +411,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-07.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor07} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -435,7 +457,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-08.jpg" />
+											<img className="img-fluid" alt="User Image" src={Doctor08} />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -488,7 +510,7 @@ function Home(){
 				<div className="container-fluid">
 				   <div className="row">
 						<div className="col-md-5 features-img">
-							<img src="../assets/img/features/feature.png" className="img-fluid" alt="Feature" /> 
+							<img src={Features01} className="img-fluid" alt="Feature" /> 
 						</div>
 						<div className="col-md-7">
 							<div className="section-header">	
@@ -498,32 +520,32 @@ function Home(){
 							<div className="features-slider slider">
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-01.jpg" className="img-fluid" alt="Feature" />
+									<img src={Features001} className="img-fluid" alt="Feature" />
 									<p>Patient Ward</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-02.jpg" className="img-fluid" alt="Feature" />
+									<img src={Features02} className="img-fluid" alt="Feature" />
 									<p>Test Room</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-03.jpg" className="img-fluid" alt="Feature" />
+									<img src={Features03} className="img-fluid" alt="Feature" />
 									<p>ICU</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-04.jpg" className="img-fluid" alt="Feature" />
+									<img src={Features04} className="img-fluid" alt="Feature" />
 									<p>Laboratory</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-05.jpg" className="img-fluid" alt="Feature" />
+									<img src={Features05} className="img-fluid" alt="Feature" />
 									<p>Operation</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="../assets/img/features/feature-06.jpg" className="img-fluid" alt="Feature"/>
+									<img src={Features06} className="img-fluid" alt="Feature"/>
 									<p>Medical</p>
 								</div>
 							</div>
@@ -531,7 +553,7 @@ function Home(){
 				   </div>
 				</div>
 			</section>	
-			
+
 			<Footer />
 	   </div>
 	   
