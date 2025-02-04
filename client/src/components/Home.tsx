@@ -1,114 +1,11 @@
+import NavBar from "./NavBar";
 
 function Home(){
     return (
         <>
         
 		<div className="main-wrapper">
-		
-        
-			<header className="header">
-				<nav className="navbar navbar-expand-lg header-nav">
-					<div className="navbar-header">
-						<a id="mobile_btn" href="javascript:void(0);">
-							<span className="bar-icon">
-								<span></span>
-								<span></span>
-								<span></span>
-							</span>
-						</a>
-						<a href="index-2.html" className="navbar-brand logo">
-							<img src="assets/img/logo.png" className="img-fluid" alt="Logo"/>
-						</a>
-					</div>
-					<div className="main-menu-wrapper">
-						<div className="menu-header">
-							<a href="index-2.html" className="menu-logo">
-								<img src="assets/img/logo.png" className="img-fluid" alt="Logo"/>
-							</a>
-							<a id="menu_close" className="menu-close" href="javascript:void(0);">
-								<i className="fas fa-times"></i>
-							</a>
-						</div>
-						<ul className="main-nav">
-							<li className="active">
-								<a href="index-2.html">Home</a>
-							</li>
-							<li className="has-submenu">
-								<a href="#">Doctors <i className="fas fa-chevron-down"></i></a>
-								<ul className="submenu">
-									<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
-									<li><a href="appointments.html">Appointments</a></li>
-									<li><a href="schedule-timings.html">Schedule Timing</a></li>
-									<li><a href="my-patients.html">Patients List</a></li>
-									<li><a href="patient-profile.html">Patients Profile</a></li>
-									<li><a href="chat-doctor.html">Chat</a></li>
-									<li><a href="invoices.html">Invoices</a></li>
-									<li><a href="doctor-profile-settings.html">Profile Settings</a></li>
-									<li><a href="reviews.html">Reviews</a></li>
-									<li><a href="doctor-register.html">Doctor Register</a></li>
-								</ul>
-							</li>	
-							<li className="has-submenu">
-								<a href="#">Patients <i className="fas fa-chevron-down"></i></a>
-								<ul className="submenu">
-									<li><a href="search.html">Search Doctor</a></li>
-									<li><a href="doctor-profile.html">Doctor Profile</a></li>
-									<li><a href="booking.html">Booking</a></li>
-									<li><a href="checkout.html">Checkout</a></li>
-									<li><a href="booking-success.html">Booking Success</a></li>
-									<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
-									<li><a href="favourites.html">Favourites</a></li>
-									<li><a href="chat.html">Chat</a></li>
-									<li><a href="profile-settings.html">Profile Settings</a></li>
-									<li><a href="change-password.html">Change Password</a></li>
-								</ul>
-							</li>	
-							<li className="has-submenu">
-								<a href="#">Pages <i className="fas fa-chevron-down"></i></a>
-								<ul className="submenu">
-									<li><a href="voice-call.html">Voice Call</a></li>
-									<li><a href="video-call.html">Video Call</a></li>
-									<li><a href="search.html">Search Doctors</a></li>
-									<li><a href="calendar.html">Calendar</a></li>
-									<li><a href="components.html">Components</a></li>
-									<li className="has-submenu">
-										<a href="invoices.html">Invoices</a>
-										<ul className="submenu">
-											<li><a href="invoices.html">Invoices</a></li>
-											<li><a href="invoice-view.html">Invoice View</a></li>
-										</ul>
-									</li>
-									<li><a href="blank-page.html">Starter Page</a></li>
-									<li><a href="login.html">Login</a></li>
-									<li><a href="register.html">Register</a></li>
-									<li><a href="forgot-password.html">Forgot Password</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="admin/index.html" target="_blank">Admin</a>
-							</li>
-							<li className="login-link">
-								<a href="login.html">Login / Signup</a>
-							</li>
-						</ul>		 
-					</div>		 
-					<ul className="nav header-navbar-rht">
-						<li className="nav-item contact-item">
-							<div className="header-contact-img">
-								<i className="far fa-hospital"></i>							
-							</div>
-							<div className="header-contact-detail">
-								<p className="contact-header">Contact</p>
-								<p className="contact-info-header"> +1 315 369 5943</p>
-							</div>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link header-login" href="login.html">login / Signup </a>
-						</li>
-					</ul>
-				</nav>
-			</header>
-            
+            <NavBar />            
 			<section className="section section-search">
 				<div className="container-fluid">
 					<div className="banner-wrapper">
@@ -149,7 +46,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="assets/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
+										<img src="../assets/img/specialities/specialities-01.png" className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>
 									<p>Urology</p>
@@ -157,7 +54,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="assets/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
+										<img src="../assets/img/specialities/specialities-02.png" className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>
 									<p>Neurology</p>	
@@ -165,7 +62,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="assets/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
+										<img src="../assets/img/specialities/specialities-03.png" className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Orthopedic</p>	
@@ -173,7 +70,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="assets/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
+										<img src="../assets/img/specialities/specialities-04.png" className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Cardiologist</p>	
@@ -181,7 +78,7 @@ function Home(){
                                 
 								<div className="speicality-item text-center">
 									<div className="speicality-img">
-										<img src="assets/img/specialities/specialities-05.png" className="img-fluid" alt="Speciality" />
+										<img src="../assets/img/specialities/specialities-05.png" className="img-fluid" alt="Speciality" />
 										<span><i className="fa fa-circle" aria-hidden="true"></i></span>
 									</div>	
 									<p>Dentist</p>
@@ -216,7 +113,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-01.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-01.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -262,7 +159,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-02.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-02.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -308,7 +205,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-03.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-03.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -354,7 +251,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-04.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-04.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -400,7 +297,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-05.jpg"/>
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-05.jpg"/>
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -446,7 +343,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-06.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-06.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -492,7 +389,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-07.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-07.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -538,7 +435,7 @@ function Home(){
 								<div className="profile-widget">
 									<div className="doc-img">
 										<a href="doctor-profile.html">
-											<img className="img-fluid" alt="User Image" src="assets/img/doctors/doctor-08.jpg" />
+											<img className="img-fluid" alt="User Image" src="../assets/img/doctors/doctor-08.jpg" />
 										</a>
 										<a href="javascript:void(0)" className="fav-btn">
 											<i className="far fa-bookmark"></i>
@@ -591,7 +488,7 @@ function Home(){
 				<div className="container-fluid">
 				   <div className="row">
 						<div className="col-md-5 features-img">
-							<img src="assets/img/features/feature.png" className="img-fluid" alt="Feature" /> 
+							<img src="../assets/img/features/feature.png" className="img-fluid" alt="Feature" /> 
 						</div>
 						<div className="col-md-7">
 							<div className="section-header">	
@@ -601,32 +498,32 @@ function Home(){
 							<div className="features-slider slider">
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-01.jpg" className="img-fluid" alt="Feature" />
+									<img src="../assets/img/features/feature-01.jpg" className="img-fluid" alt="Feature" />
 									<p>Patient Ward</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-02.jpg" className="img-fluid" alt="Feature" />
+									<img src="../assets/img/features/feature-02.jpg" className="img-fluid" alt="Feature" />
 									<p>Test Room</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-03.jpg" className="img-fluid" alt="Feature" />
+									<img src="../assets/img/features/feature-03.jpg" className="img-fluid" alt="Feature" />
 									<p>ICU</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-04.jpg" className="img-fluid" alt="Feature" />
+									<img src="../assets/img/features/feature-04.jpg" className="img-fluid" alt="Feature" />
 									<p>Laboratory</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-05.jpg" className="img-fluid" alt="Feature" />
+									<img src="../assets/img/features/feature-05.jpg" className="img-fluid" alt="Feature" />
 									<p>Operation</p>
 								</div>
 
 								<div className="feature-item text-center">
-									<img src="assets/img/features/feature-06.jpg" className="img-fluid" alt="Feature"/>
+									<img src="../assets/img/features/feature-06.jpg" className="img-fluid" alt="Feature"/>
 									<p>Medical</p>
 								</div>
 							</div>
@@ -644,7 +541,7 @@ function Home(){
 							
 								<div className="footer-widget footer-about">
 									<div className="footer-logo">
-										<img src="assets/img/footer-logo.png" alt="logo"/>
+										<img src="../assets/img/footer-logo.png" alt="logo"/>
 									</div>
 									<div className="footer-about-content">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
