@@ -4,6 +4,7 @@ import FeaturedPolicy from "../../components/users/FeaturesPolicy";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import HomeBanner from "../../components/users/HomeBanner";
+import HowWorks from "../../components/users/HowWorks";
 import Specialties from "../../components/users/Specialties";
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
       <Header />
       <FeaturedPolicy />
       <HomeBanner />
+      <HowWorks />
       <Specialties />
       <BookDoctor />
       <Features />
