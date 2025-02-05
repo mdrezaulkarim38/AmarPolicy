@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -59,7 +60,7 @@ function BookDoctor() {
                         <div className="about-content">
                             <p>It is a long established fact that a reader will be distracted by the readable content.</p>
                             <p>Web page editors now use Lorem Ipsum as their default model text.</p>
-                            <a href="javascript:void(0);">Read More..</a>
+                            <button onClick={() => console.log("Favorite clicked")}>Read More..</button>
                         </div>
                     </div>
                     <div className="col-lg-8">
@@ -67,16 +68,16 @@ function BookDoctor() {
                             {doctors.map((doctor, index) => (
                                 <div className="profile-widget" key={index}>
                                     <div className="doc-img">
-                                        <a href="doctor-profile.html">
+                                        <Link to="doctor-profile">
                                             <img className="img-fluid" alt="User Image" src={doctor.img} />
-                                        </a>
-                                        <a href="javascript:void(0)" className="fav-btn">
+                                        </Link>
+                                        <Link to="#" className="fav-btn">
                                             <i className="far fa-bookmark"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="pro-content">
                                         <h3 className="title">
-                                            <a href="doctor-profile.html">{doctor.name}</a> 
+                                            <Link to="doctor-profile">{doctor.name}</Link> 
                                             <i className="fas fa-check-circle verified"></i>
                                         </h3>
                                         <p className="speciality">{doctor.speciality}</p>
@@ -102,10 +103,10 @@ function BookDoctor() {
                                         </ul>
                                         <div className="row row-sm">
                                             <div className="col-6">
-                                                <a href="doctor-profile.html" className="btn view-btn">View Profile</a>
+                                                <Link to="doctor-profile" className="btn view-btn">View Profile</Link>
                                             </div>
                                             <div className="col-6">
-                                                <a href="booking.html" className="btn book-btn">Book Now</a>
+                                                <Link to="booking" className="btn book-btn">Book Now</Link>
                                             </div>
                                         </div>
                                     </div>
