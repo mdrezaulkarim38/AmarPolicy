@@ -8,6 +8,7 @@ import MobileApp from "../../components/users/MobileApp";
 import OurClient from "../../components/users/OurClient";
 import RequestCallForm from "../../components/users/RequestCallForm";
 import SmeCorporate from "../../components/users/SmeCorporate";
+import UpdateNews from "../../components/users/UpdateNews";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <OurClient />
       <RequestCallForm />
       <SmeCorporate />
+      <UpdateNews />
       <Footer />
     </div>
   );
