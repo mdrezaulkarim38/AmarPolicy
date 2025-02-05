@@ -7,6 +7,7 @@ import InsuranceList from "../../components/users/InsuranceList";
 import MobileApp from "../../components/users/MobileApp";
 import OurClient from "../../components/users/OurClient";
 import RequestCallForm from "../../components/users/RequestCallForm";
+import SmeCorporate from "../../components/users/SmeCorporate";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <MobileApp />
       <OurClient />
       <RequestCallForm />
+      <SmeCorporate />
       <Footer />
     </div>
   );
