@@ -15,16 +15,16 @@ function Home() {
   return (
     <div className="main-wrapper">
       <Header />
-      <FeaturedPolicy />
       <HomeBanner />
-      <HowWorks />
       <InsuranceList />
-      <MobileApp />
-      <OurClient />
       <RequestCallForm />
       <SmeCorporate />
-      <UpdateNews />
+      <HowWorks />
+      <MobileApp />
+      <FeaturedPolicy />
       <WhyChoose />
+      <OurClient />
+      <UpdateNews />
       <Footer />
     </div>
   );
