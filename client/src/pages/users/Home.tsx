@@ -9,6 +9,7 @@ import OurClient from "../../components/users/OurClient";
 import RequestCallForm from "../../components/users/RequestCallForm";
 import SmeCorporate from "../../components/users/SmeCorporate";
 import UpdateNews from "../../components/users/UpdateNews";
+import WhyChoose from "../../components/users/WhyChoose";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <RequestCallForm />
       <SmeCorporate />
       <UpdateNews />
+      <WhyChoose />
       <Footer />
     </div>
   );
