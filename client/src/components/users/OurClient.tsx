@@ -21,13 +21,14 @@ const doctors = [
 
 function OurClient() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3, // Adjust the number of doctors shown at a time
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -53,7 +54,7 @@ function OurClient() {
             <p>
               Let 'Amar Policy' become your trusted insurance solutions provider
             </p>
-            <Slider {...settings}>
+            <Slider {...settings} className="customerSlider">
               {doctors.map((doctor, index) => (
                 <div key={index} className="doc-img">
                   <a href={doctor.link}>
