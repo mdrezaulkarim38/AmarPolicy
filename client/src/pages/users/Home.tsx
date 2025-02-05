@@ -3,6 +3,7 @@ import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import HomeBanner from "../../components/users/HomeBanner";
 import HowWorks from "../../components/users/HowWorks";
+import InsuranceList from "../../components/users/InsuranceList";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <FeaturedPolicy />
       <HomeBanner />
       <HowWorks />
+      <InsuranceList />
       <Footer />
     </div>
   );
