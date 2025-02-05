@@ -51,7 +51,7 @@ function OurClient() {
         <div className="row">
           <div className="col-lg-12">
             <h2 className="text-center mb-4">Company Alliance to Us</h2>
-            <p>
+            <p className="text-center">
               Let 'Amar Policy' become your trusted insurance solutions provider
             </p>
             <Slider {...settings} className="customerSlider">
