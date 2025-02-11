@@ -11,6 +11,7 @@ import MarineInsurance from "./pages/users/MarineInsurance";
 import GroupInsurance from "./pages/users/GroupInsurance";
 import LifeInsurance from "./pages/users/LifeInsurance";
 import MotorcycleInsurance from "./pages/users/MotorcycleInsurance";
+import AccidentInsurance from "./pages/users/AccidentInsurance";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/group-insurance" element={<GroupInsurance />} />
       <Route path="/life-insurance" element={<LifeInsurance />} />
       <Route path="/motorcycle-insurance" element={<MotorcycleInsurance />} />
+      <Route path="/accident-insurance" element={<AccidentInsurance />} />
     </Routes>
   );
 }
