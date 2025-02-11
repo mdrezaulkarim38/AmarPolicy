@@ -41,11 +41,9 @@ const AccidentInsurance = () => {
             style={{ maxWidth: "80%", marginBottom: "20px" }}
           />
           <h3 className="font-weight-normal">
-            Choose the best{" "}
-            <span className="font-weight-bolder text-primary">
-              Health Insurance Plan
+          Accidents can happen,<br />
+            <span className="font-weight-bolder text-primary"> get yourself covered!
             </span>{" "}
-            for Yourself and Your Family
           </h3>
         </div>
 
