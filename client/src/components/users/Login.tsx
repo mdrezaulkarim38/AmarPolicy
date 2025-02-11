@@ -6,7 +6,7 @@ const Login = () => {
     return (
         <div className="main-wrapper">
             <Header />
-            <div className="content">
+            <div className="content mb-4">
 				<div className="container-fluid">
 					
 					<div className="row">
