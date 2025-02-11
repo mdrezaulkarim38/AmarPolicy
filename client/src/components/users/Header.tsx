@@ -85,7 +85,7 @@ function Header() {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link header-login" to="/log-in">Login / Signup</Link>
+            <Link className="nav-link header-login" to="/login">Login / Signup</Link>
           </li>
         </ul>
       </nav>
