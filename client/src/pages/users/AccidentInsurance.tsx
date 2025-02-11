@@ -31,136 +31,8 @@ const AccidentInsurance = () => {
     <div className="main-wrapper">
       <Header />
       <Breadcrumb pageName="Accident Insurance" />
-      {/* <div className="container mt-5 mb-5">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="text-center">
-              <img src={DImage} className="img-fluid" alt="Image of a doctor" />
-              <h3 className="font-weight-normal">
-                Choose the best Health Insurance{" "}
-                <span className="font-weight-bolder">
-                  {" "}
-                  Plan for Yourself and your Family
-                </span>
-              </h3>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="card">
-              <div className="card-body" style={{ paddingTop: "0px" }}>
-                <div className="tab-content">
-                  <div
-                    className="tab-pane show active"
-                    id="solid-justified-tab1"
-                  >
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-md-6">
-                          <label htmlFor="YourName">Your Name</label>
-                          <input
-                            type="text"
-                            name="yourName"
-                            className="form-control"
-                            id="YourNameSelf"
-                            placeholder="Your Name"
-                          />
-                        </div>
-                        <div className="col-md-6">
-                          <label htmlFor="mobileSelf">Mobile Number</label>
-                          <input
-                            type="text"
-                            name="mobileSelf"
-                            className="form-control"
-                            id="mobileSelf"
-                            placeholder="Mobile Number"
-                          />
-                        </div>
-                        <div className="CheckButtonArea m-3">
-                          <label className="cum_check">
-                            <input type="checkbox" name="select_specialist" />
-                            <span className="checkmark"></span> Get Updates on
-                            WhatsApp
-                          </label>
-                        </div>
-                        <div className="form-field  col-12">
-                          <label htmlFor="self_age">Your Age</label>
-                          <select className="form-control select" id="self_age">
-                            <option value="">Select</option>
-                            <option value="18">18 Years</option>
-                            <option value="19">19 Years</option>
-                            <option value="20">20 Years</option>
-                            <option value="21">21 Years</option>
-                            <option value="22">22 Years</option>
-                            <option value="23">23 Years</option>
-                            <option value="24">24 Years</option>
-                            <option value="25">25 Years</option>
-                            <option value="26">26 Years</option>
-                            <option value="27">27 Years</option>
-                            <option value="28">28 Years</option>
-                            <option value="29">29 Years</option>
-                            <option value="30">30 Years</option>
-                            <option value="31">31 Years</option>
-                            <option value="32">32 Years</option>
-                            <option value="33">33 Years</option>
-                            <option value="34">34 Years</option>
-                            <option value="35">35 Years</option>
-                            <option value="36">36 Years</option>
-                            <option value="37">37 Years</option>
-                            <option value="38">38 Years</option>
-                            <option value="39">39 Years</option>
-                            <option value="40">40 Years</option>
-                            <option value="41">41 Years</option>
-                            <option value="42">42 Years</option>
-                            <option value="43">43 Years</option>
-                            <option value="44">44 Years</option>
-                            <option value="45">45 Years</option>
-                            <option value="46">46 Years</option>
-                            <option value="47">47 Years</option>
-                            <option value="48">48 Years</option>
-                            <option value="49">49 Years</option>
-                            <option value="50">50 Years</option>
-                            <option value="51">51 Years</option>
-                            <option value="52">52 Years</option>
-                            <option value="53">53 Years</option>
-                            <option value="54">54 Years</option>
-                            <option value="55">55 Years</option>
-                            <option value="56">56 Years</option>
-                            <option value="57">57 Years</option>
-                            <option value="58">58 Years</option>
-                            <option value="59">59 Years</option>
-                            <option value="60">60 Years</option>
-                            <option value="61">61 Years</option>
-                            <option value="62">62 Years</option>
-                            <option value="63">63 Years</option>
-                            <option value="64">64 Years</option>
-                            <option value="65">65 Years</option>
-                            <option value="66">66 Years</option>
-                            <option value="67">67 Years</option>
-                            <option value="68">68 Years</option>
-                            <option value="69">69 Years</option>
-                            <option value="70">70 Years</option>
-                          </select>
-                        </div>
-                        <div className="CheckButtonArea m-3">
-                          <label className="cum_check">
-                            <input type="checkbox" name="select_specialist" />
-                            <span className="checkmark"></span> I agree with the
-                            Terms of Service
-                          </label>
-                        </div>
-                      </div>
-                      <button className="btn btn-info w-100">See Plans</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="container mt-5 mb-5">
       <div className="row align-items-center">
-        {/* Image Section */}
         <div className="col-lg-6 text-center">
           <img
             src={DImage}
@@ -177,7 +49,6 @@ const AccidentInsurance = () => {
           </h3>
         </div>
 
-        {/* Form Section */}
         <div className="col-lg-6">
           <div className="card shadow border-0">
             <div className="card-body p-4">
