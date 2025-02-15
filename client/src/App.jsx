@@ -17,12 +17,13 @@ import { AuthProvider } from "./context/AuthContext";
 import Product from "./pages/users/Product";
 import Enrollments from "./pages/users/Enrollments";
 import Speedoz from "./pages/users/speedoz";
+import PrivateRoute from "./routes/PrivateRoute.jsx";
 
 function App() {
     return (
         <AuthProvider>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<PrivateRoute> <Home /> </PrivateRoute>} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/health-insurance" element={<HealthInsurance />} />
