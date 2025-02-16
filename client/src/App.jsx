@@ -18,6 +18,10 @@ import Product from "./pages/users/Product";
 import Enrollments from "./pages/users/Enrollments";
 import Speedoz from "./pages/users/speedoz";
 import PrivateRoute from "./routes/PrivateRoute.jsx";
+import MTSpeedoz from "./pages/users/MTSpeedoz.jsx";
+import Gearx from "./pages/users/Gearx.jsx";
+import ARHelmets from "./pages/users/ARHelmets.jsx";
+import FreedConn from "./pages/users/FreedConn.jsx";
 
 function App() {
     return (
@@ -38,6 +42,10 @@ function App() {
                 <Route path="/product" element={<Product />} />
                 <Route path="/enrollments" element={<Enrollments />} />
                 <Route path="/speedoz" element={<Speedoz />} />
+                <Route path="/mt-speedoz" element={<MTSpeedoz />} />
+                <Route path="/gearx" element={<Gearx />} />
+                <Route path="/ar-helmets" element={<ARHelmets />} />
+                <Route path="/freedconn" element={<FreedConn />} />
             </Routes>
         </AuthProvider>
     );
