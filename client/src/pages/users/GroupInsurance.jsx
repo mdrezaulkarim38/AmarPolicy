@@ -17,12 +17,12 @@ function GroupInsurance () {
                 </div>
                 <div className="row justify-content-end">
                     <div className="col-md-6 mb-4">
-                        <p>Having a Group Insurance policy for your organizations' employees can bring a number of advantages for both employer and employees. As an employer, you will get the following advantages by taking a group insurance policy for employees:</p>
+                        <p>Having a Group Insurance policy for your organizations employees can bring a number of advantages for both employer and employees. As an employer, you will get the following advantages by taking a group insurance policy for employees:</p>
                         <ul>
                             <li>Comply with the labor law of Bangladesh</li>
                             <li>Attract better talents during recruitment</li>
                             <li>Retain your most valuable human resources</li>
-                            <li>Increase employees' loyalty</li>
+                            <li>Increase employees loyalty</li>
                             <li>Ensure better employee productivity</li>
                             <li>Ensure higher job satisfaction</li>
                             <li>Better financial security for employees</li>

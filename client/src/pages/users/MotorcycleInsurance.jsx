@@ -7,7 +7,7 @@ function MotorcycleInsurance() {
         <div className="main-wrapper">
             <Header />
             <Breadcrumb pageName="Motorcycle Insurance" />
-            <div className="container">
+            <div className="container pb-5">
                 <blockquote className="blockquote text-primary mt-4">
                     <h4>
                         Compare And Find The Best Deals Of Motor Bike Insurance Policies

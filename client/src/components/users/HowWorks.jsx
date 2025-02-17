@@ -8,7 +8,7 @@ function HowWorks() {
             <section className="section section-specialities bg-light py-5">
                 <div className="container-fluid">
                     <div className="section-header text-center mb-4">
-                        <h2>How 'Amar Policy' Works</h2>
+                        <h2>How Amar Policy Works</h2>
                     </div>
 
                     <div className="speciality-box text-center p-4 border rounded bg-white">

@@ -176,11 +176,11 @@ function ActivationForm() {
                 <div className="mt-3 form-group">
                     <small>
                         By clicking submit I am agreeing to the{' '}
-                        <a href="https://bimafy.com/terms-of-service" target="_blank" rel="noopener noreferrer">
+                        <a href="terms-of-service" target="_blank" rel="noopener noreferrer">
                             Terms of Service
                         </a>{' '}
                         and{' '}
-                        <a href="https://bimafy.com/channel/speedoz/plans" target="_blank" rel="noopener noreferrer">
+                        <a href="channel/speedoz/plans" target="_blank" rel="noopener noreferrer">
                             insurance policy specific conditions
                         </a>
                         .
