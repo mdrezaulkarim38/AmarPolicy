@@ -17,17 +17,20 @@ import { AuthProvider } from "./context/AuthContext";
 import Product from "./pages/users/Product";
 import Enrollments from "./pages/users/Enrollments";
 import Speedoz from "./pages/users/speedoz";
-import PrivateRoute from "./routes/PrivateRoute.jsx";
+// import PrivateRoute from "./routes/PrivateRoute.jsx";
 import MTSpeedoz from "./pages/users/MTSpeedoz.jsx";
 import Gearx from "./pages/users/Gearx.jsx";
 import ARHelmets from "./pages/users/ARHelmets.jsx";
 import FreedConn from "./pages/users/FreedConn.jsx";
+import Blog from "./pages/users/Blog.jsx";
+import AboutUs from "./pages/users/AboutUs.jsx";
+import FAQ from "./pages/users/FAQ.jsx";
 
 function App() {
     return (
         <AuthProvider>
             <Routes>
-                <Route path="/" element={<PrivateRoute> <Home /> </PrivateRoute>} />
+                <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/health-insurance" element={<HealthInsurance />} />
@@ -46,6 +49,9 @@ function App() {
                 <Route path="/gearx" element={<Gearx />} />
                 <Route path="/ar-helmets" element={<ARHelmets />} />
                 <Route path="/freedconn" element={<FreedConn />} />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/faq" element={<FAQ />} />
             </Routes>
         </AuthProvider>
     );
