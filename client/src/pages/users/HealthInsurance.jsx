@@ -4,7 +4,7 @@ import FaqButton from "../../components/users/FaqButton";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 
-import DImage from "../../assets/users/assets/img/doctors/doctor-08.jpg";
+import DImage from "../../assets/users/assets/img/istockphoto-1226082621-612x612.jpg";
 
 function HealthInsurance() {
     const [coverageRange, setCoverageRange] = useState("500000-1000000"); // Default coverage range
@@ -60,7 +60,7 @@ function HealthInsurance() {
                     <div className="col-lg-6">
                         <div className="text-center">
                             <img src={DImage} className="img-fluid" alt="Image of a doctor" />
-                            <h3 className="font-weight-normal">
+                            <h3 className="font-weight-normal mt-4">
                                 Choose the best Health Insurance{" "}
                                 <span className="font-weight-bolder">
                   {" "}

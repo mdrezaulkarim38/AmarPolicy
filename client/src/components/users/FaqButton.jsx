@@ -13,7 +13,7 @@ function FaqButton({ faqData }) {
     <div className="accordion w-100">
       {faqData.map((faq, index) => (
         <div className="accordion-item m-2" key={index}>
-          <h2 className="accordion-header bg-primary p-2">
+          <h2 className="accordion-header bg-info text-white p-2">
             <button
               className={`accordion-button w-100 text-left ${
                 openIndex === index ? "" : "collapsed"

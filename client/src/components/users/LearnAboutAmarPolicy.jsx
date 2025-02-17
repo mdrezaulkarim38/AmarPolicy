@@ -1,3 +1,4 @@
+import ImageAboutUs from "../../assets/users/assets/img/2965738.jpg";
 const LearnAboutAmarPolicy = () => {
   return (
     <div className="pt-5 pb-5">
@@ -21,7 +22,7 @@ const LearnAboutAmarPolicy = () => {
             <div className="col-md">
               <div className="learn_about_Amar Policy_image text-center">
                 <img
-                  src="https://bimafy.com/images/frontend/v2/static_page/about_us/about_us_learn_about_bimafy.svg"
+                  src={ImageAboutUs}
                   alt="About Amar Policy"
                   className="img-fluid"
                 />

@@ -2,14 +2,16 @@ import Breadcrumb from "../../components/users/Breadcrumb";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import BlogListComponent from "../../components/users/BlogListComponent";
+import AccidentImage01 from "../../assets/users/assets/img/istockphoto-1226082621-612x612.jpg"
+import AccidentImage02 from "../../assets/users/assets/img/istockphoto-1409928874-1024x1024.jpg"
+
 
 function Blog() {
   const blogPosts = [
     {
       title: "Accident Insurance Coverage with LS2 Helmets",
       link: "#",
-      imageUrl:
-        "https://media.istockphoto.com/id/1226082621/photo/insurance-concept-stack-of-wooden-blocks-with-words-life-health-legal-expenses-business-house.jpg?s=612x612&w=0&k=20&c=5bKk7pRl9jewZM_nmIquyGOj4Q7BVNiYRcJC9H1smfE=",
+      imageUrl: AccidentImage01,
       date: "2025-01-01 18:08:00",
       readingTime: "1 minute",
       description:
@@ -18,8 +20,7 @@ function Blog() {
     {
       title: "Top Destinations for Bangladeshi Travelers",
       link: "#",
-      imageUrl:
-        "https://media.istockphoto.com/id/1409928874/photo/man-signature-document-for-life-insurance-investment.jpg?s=612x612&w=0&k=20&c=YrSde_6-Ne8Ee6i8M_lby3OPJrk8y41tS4ChBPUn43o=",
+      imageUrl:AccidentImage02,
       date: "2024-09-19 15:30:00",
       readingTime: "3 minutes",
       description:
@@ -28,8 +29,7 @@ function Blog() {
     {
       title: "Frequently Asked Questions About Insurance in Bangladesh",
       link: "#",
-      imageUrl:
-        "https://media.istockphoto.com/id/1226082621/photo/insurance-concept-stack-of-wooden-blocks-with-words-life-health-legal-expenses-business-house.jpg?s=612x612&w=0&k=20&c=5bKk7pRl9jewZM_nmIquyGOj4Q7BVNiYRcJC9H1smfE=",
+      imageUrl: AccidentImage01,
       date: "2024-09-05 11:36:00",
       readingTime: "4 minutes",
       description:
@@ -38,8 +38,7 @@ function Blog() {
     {
       title: "Travel Insurance Purchasing Guide - Which policy suits you best?",
       link: "#",
-      imageUrl:
-        "https://media.istockphoto.com/id/1409928874/photo/man-signature-document-for-life-insurance-investment.jpg?s=612x612&w=0&k=20&c=YrSde_6-Ne8Ee6i8M_lby3OPJrk8y41tS4ChBPUn43o=",
+      imageUrl:AccidentImage02,
       date: "2024-08-01 12:38:00",
       readingTime: "4 minutes",
       description:
