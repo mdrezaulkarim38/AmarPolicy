@@ -1,34 +1,33 @@
-import React, { useState } from 'react';
 import Breadcrumb from "../../components/users/Breadcrumb";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import ActivationForm from '../../components/users/ActivationForm';
 
 function Speedoz() {
-    const [formData, setFormData] = useState({
-        name: '',
-        dateOfBirth: '',
-        mobile: '',
-        email: '',
-        productModel: '',
-        purchaseDate: '',
-        dealerName: '',
-        activationCode: ''
-      });
+    // const [formData, setFormData] = useState({
+    //     name: '',
+    //     dateOfBirth: '',
+    //     mobile: '',
+    //     email: '',
+    //     productModel: '',
+    //     purchaseDate: '',
+    //     dealerName: '',
+    //     activationCode: ''
+    //   });
     
-      const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-          ...formData,
-          [name]: value
-        });
-      };
+    //   const handleChange = (e) => {
+    //     const { name, value } = e.target;
+    //     setFormData({
+    //       ...formData,
+    //       [name]: value
+    //     });
+    //   };
     
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Submit form data logic
-        console.log(formData);
-      };
+    //   const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     // Submit form data logic
+    //     console.log(formData);
+    //   };
     return (
         <div className="main-wrapper">
             <Header />

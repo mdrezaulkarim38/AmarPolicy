@@ -125,7 +125,7 @@ const LifeInsurance = () => {
                         </li>
                     </ul>
                     <p className="font-weight-bold">
-                        Why Choose Life Insurance from Bimafy?
+                        Why Choose Life Insurance from Amar Policy?
                     </p>
                     <p>
                         Comprehensive Coverage: We offer extensive coverage options that
@@ -135,7 +135,7 @@ const LifeInsurance = () => {
                         Our life insurance plans come with competitive premiums that make it
                         easier for you to secure substantial coverage without straining your
                         budget. Easy Application Process: Applying for life insurance with
-                        Bimafy is straightforward and hassle-free. Our user-friendly
+                        Amar Policy is straightforward and hassle-free. Our user-friendly
                         platform guides you through each step, ensuring you understand your
                         options and make informed decisions. Tailored Plans: We recognize
                         that every individual has unique needs and financial goals. Our
@@ -144,7 +144,7 @@ const LifeInsurance = () => {
                         coverage, or retirement planning. Expert Support: Our team of
                         insurance experts is always available to provide guidance and
                         support. We help you navigate through your options and assist you in
-                        selecting the best plan for your needs. At Bimafy, we understand the
+                        selecting the best plan for your needs. At Amar Policy, we understand the
                         importance of securing your family&#39;s financial future. Life
                         insurance provides peace of mind, ensuring that your loved ones are
                         taken care of even in your absence. Our comprehensive life insurance
@@ -154,7 +154,7 @@ const LifeInsurance = () => {
                     </p>
                     <p className="font-weight-bold">How to Get Started?</p>
                     <p>
-                        Getting started with Bimafy’s life insurance is simple:</p>
+                        Getting started with Amar Policy life insurance is simple:</p>
                     <p><span className="font-weight-bold"> Explore Plans: </span>Visit our website to explore the various life insurance plans
                         available. <br /> <span className="font-weight-bold">Get a Quote: </span>Use our online calculator to get an instant
                         quote based on your needs and budget. <br /> <span className="font-weight-bold">Apply Online: </span>Complete the

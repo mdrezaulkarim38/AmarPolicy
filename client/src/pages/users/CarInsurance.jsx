@@ -11,7 +11,7 @@ function CarInsurance () {
                 <blockquote className="blockquote">
                     <p className="mb-0">
                         Compare And Find The Best Deals Of Motor Bike Insurance Policies
-                        From Bimafy
+                        From Amar Policy
                     </p>
                 </blockquote>
                 <h4 className="mb-4 text-primary">
@@ -90,7 +90,7 @@ function CarInsurance () {
                     within the next day (for inside Dhaka Metro areas) or 3-4 working days
                     all over Bangladesh.
                 </p>
-                <h4 className="text-primary mb-4">Best Claim Experience at Bimafy!</h4>
+                <h4 className="text-primary mb-4">Best Claim Experience at Amar Policy!</h4>
                 <ul className="list-unstyled">
                     <li className="mb-3 d-flex align-items-center">
                         <i className="fas fa-circle text-success mr-2"></i>

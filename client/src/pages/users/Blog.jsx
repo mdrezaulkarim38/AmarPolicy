@@ -13,7 +13,7 @@ function Blog() {
       date: "2025-01-01 18:08:00",
       readingTime: "1 minute",
       description:
-        "LS2 Helmets are now available with Accident Insurance Coverage, powered by Bimafy...",
+        "LS2 Helmets are now available with Accident Insurance Coverage, powered by Amar Policy...",
     },
     {
       title: "Top Destinations for Bangladeshi Travelers",
@@ -31,7 +31,7 @@ function Blog() {
         date: "2024-09-05 11:36:00",
         readingTime: "4 minutes",
         description:
-          "Insurance plays a crucial role in safeguarding your health, assets, and financial well-being. However, many people in Bangladesh often find it confusing or overwhelming to choose the right insurance plan. At Bimafy, we aim to make insurance simple an...",
+          "Insurance plays a crucial role in safeguarding your health, assets, and financial well-being. However, many people in Bangladesh often find it confusing or overwhelming to choose the right insurance plan. At Amar Policy, we aim to make insurance simple an...",
       },
       {
         title: "Travel Insurance Purchasing Guide - Which policy suits you best?",
@@ -40,7 +40,7 @@ function Blog() {
         date: "2024-08-01 12:38:00",
         readingTime: "4 minutes",
         description:
-          "Bimafy offers a range of travel insurance policies to cater to various types of travelers. These policies include:1. Travel Insurance for Business &amp; Holiday: This policy is suitable for individuals traveling for both business and leisure purposes...",
+          "Amar Policy offers a range of travel insurance policies to cater to various types of travelers. These policies include:1. Travel Insurance for Business &amp; Holiday: This policy is suitable for individuals traveling for both business and leisure purposes...",
       }
   ];
 
@@ -61,7 +61,7 @@ function Blog() {
               <ul className="list-unstyled">
                 <li className="pl-3 mt-2">
                   <a
-                    href="https://bimafy.com/blog-tag/travel-insurance"
+                    href="travel-insurance"
                     className=""
                   >
                     Travel Insurance
@@ -69,7 +69,7 @@ function Blog() {
                 </li>
                 <li className="pl-3 mt-2">
                   <a
-                    href="https://bimafy.com/blog-tag/certified-helmet"
+                    href="certified-helmet"
                     className=""
                   >
                     Certified Helmet
@@ -77,7 +77,7 @@ function Blog() {
                 </li>
                 <li className="pl-3 mt-2">
                   <a
-                    href="https://bimafy.com/blog-tag/travel-policy"
+                    href="travel-policy"
                     className=""
                   >
                     Travel Policy
@@ -85,7 +85,7 @@ function Blog() {
                 </li>
                 <li className="pl-3 mt-2">
                   <a
-                    href="https://bimafy.com/blog-tag/health-coverage"
+                    href="health-coverage"
                     className=""
                   >
                     Health Coverage
@@ -93,7 +93,7 @@ function Blog() {
                 </li>
                 <li className="pl-3 mt-2">
                   <a
-                    href="https://bimafy.com/blog-tag/origine-helmets"
+                    href="origine-helmets"
                     className=""
                   >
                     Origine Helmets

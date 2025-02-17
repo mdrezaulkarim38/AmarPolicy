@@ -53,7 +53,7 @@ function GroupInsurance () {
                             </li>
                         </ol>
 
-                        <p>Why use Bimafy to get a Group Insurance Policy for your employees?</p>
+                        <p>Why use Amar Policy to get a Group Insurance Policy for your employees?</p>
 
                         <ul>
                             <li>Customize insruance schemes based on your needs</li>

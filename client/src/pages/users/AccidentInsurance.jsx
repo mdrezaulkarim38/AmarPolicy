@@ -24,7 +24,7 @@ function AccidentInsurance () {
         {
             question: "Which Accident Insurance policies can I get at Amar Policy?",
             answer:
-                "Bimafy offers all types of Accident Insurance to customers. Biker Bima for motorcycle users is the most famous accident insurance policy, which pays fixed benefits against injuries due to road traffic accidents. The Peoples's Personal Accident (PPA) policy is another very affordable accident insurance policy that pays benefits against accidental death and permanent disabilities.",
+                "Amar Policy offers all types of Accident Insurance to customers. Biker Bima for motorcycle users is the most famous accident insurance policy, which pays fixed benefits against injuries due to road traffic accidents. The Peoples's Personal Accident (PPA) policy is another very affordable accident insurance policy that pays benefits against accidental death and permanent disabilities.",
         },
     ];
     return (

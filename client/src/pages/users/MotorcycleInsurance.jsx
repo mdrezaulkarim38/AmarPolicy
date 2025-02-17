@@ -11,7 +11,7 @@ function MotorcycleInsurance() {
                 <blockquote className="blockquote text-primary mt-4">
                     <h4>
                         Compare And Find The Best Deals Of Motor Bike Insurance Policies
-                        From Bimafy
+                        From Amar Policy
                     </h4>
                 </blockquote>
 
@@ -93,7 +93,7 @@ function MotorcycleInsurance() {
                     all over Bangladesh.
                 </p>
 
-                <h5 className="text-warning">Best Claim Experience at Bimafy!</h5>
+                <h5 className="text-warning">Best Claim Experience at Amar Policy!</h5>
                 <ul className="list-group">
                     <li className="list-group-item">
                         Cashless claim processing service from reputed workshops
