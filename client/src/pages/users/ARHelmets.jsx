@@ -20,13 +20,13 @@ function ARHelmets() {
                     <h1 className="pt-3 h3">AR Helmets: Warranty and Insurance Activation</h1>
                     <span className="pt-3 h6">
                         For more details regarding this insurance policy, please{' '}
-                        <a href="https://bimafy.com/channel/speedoz/plans" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             click here
                         </a>
                         .
                     </span>
                     <span className="pt-3 h6">
-                        <a href="https://bimabdcompany.s3-ap-southeast-1.amazonaws.com/media/64034/warranty-policy-for-helmets.pdf" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             Please read the Warranty Policy here.
                         </a>
                     </span>
