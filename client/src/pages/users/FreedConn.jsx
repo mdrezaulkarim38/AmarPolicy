@@ -3,6 +3,8 @@ import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import ActivationForm from '../../components/users/ActivationForm';
 
+import FreeConnLogo from "../../assets/users/assets/img/logo-freedconn-bd.jpg";
+
 function FreedConn() {
     return (
         <div className="main-wrapper">
@@ -12,7 +14,7 @@ function FreedConn() {
                 <div className="p-3 card">
                     <div className="card-img-top">
                         <img
-                            src="https://bimabdcompany.s3-ap-southeast-1.amazonaws.com/media/79515/logo-freedconn-bd.jpg"
+                            src={FreeConnLogo}
                             style={{ maxWidth: '250px', maxHeight: '150px' }}
                             alt="Origine Helmet"
                         />

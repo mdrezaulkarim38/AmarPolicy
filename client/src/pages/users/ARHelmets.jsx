@@ -2,7 +2,7 @@ import Breadcrumb from "../../components/users/Breadcrumb";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import ActivationForm from '../../components/users/ActivationForm';
-
+import ARHelmetLogo from "../../assets/users/assets/img/ar-helmets.png";
 function ARHelmets() {
     return (
         <div className="main-wrapper">
@@ -12,7 +12,7 @@ function ARHelmets() {
                 <div className="p-3 card">
                     <div className="card-img-top">
                         <img
-                            src="https://bimabdcompany.s3-ap-southeast-1.amazonaws.com/media/74424/ar-helmets.png"
+                            src={ARHelmetLogo}
                             style={{ maxWidth: '250px', maxHeight: '150px' }}
                             alt="Origine Helmet"
                         />
