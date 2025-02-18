@@ -161,7 +161,12 @@ p {
   color: #0eb4b4;
 }
 
-
+.hover-white{
+  color: #0eb4b4;
+}
+.hover-white:hover {
+  color: white !important;
+}
 
 /*
 * accordion

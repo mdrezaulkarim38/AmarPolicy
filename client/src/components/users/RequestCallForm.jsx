@@ -27,7 +27,7 @@ function RequestCallForm() {
                                         className="form-control"
                                         required
                                     >
-                                        <option value="" disabled selected>
+                                        <option value="" disabled>
                                             Select a topic
                                         </option>
                                         <option value="health_insurance">Health Insurance</option>
