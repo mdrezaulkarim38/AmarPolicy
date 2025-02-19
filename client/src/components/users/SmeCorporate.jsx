@@ -15,7 +15,7 @@ function SmeCorporate() {
                             <div className="speciality-img mb-3">
                                 <img
                                     src={SpecialImg01}
-                                    className="img-fluid"
+                                    className="img-fluid specialities"
                                     alt="Health Insurance"
                                 />
                             </div>
@@ -28,7 +28,7 @@ function SmeCorporate() {
                             <div className="speciality-img mb-3">
                                 <img
                                     src={SpecialImg02}
-                                    className="img-fluid"
+                                    className="img-fluid specialities"
                                     alt="Life Insurance"
                                 />
                             </div>
@@ -41,7 +41,7 @@ function SmeCorporate() {
                             <div className="speciality-img mb-3">
                                 <img
                                     src={SpecialImg03}
-                                    className="img-fluid"
+                                    className="img-fluid specialities"
                                     alt="Corporate Insurance"
                                 />
                             </div>

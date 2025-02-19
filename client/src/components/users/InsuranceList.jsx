@@ -12,7 +12,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg01} className="img-fluid" alt="Health Insurance" />
+                                <img src={SpecialititesImg01} className="img-fluid specialities" alt="Health Insurance" />
                             </div>
                             <p className="mb-0">Health Insurance</p>
                         </div>
@@ -21,7 +21,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg02} className="img-fluid" alt="Life Insurance" />
+                                <img src={SpecialititesImg02} className="img-fluid specialities" alt="Life Insurance" />
                             </div>
                             <p className="mb-0">Travel Insurance</p>
                         </div>
@@ -30,7 +30,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg03} className="img-fluid" alt="Corporate Insurance" />
+                                <img src={SpecialititesImg03} className="img-fluid specialities" alt="Corporate Insurance" />
                             </div>
                             <p className="mb-0">Accident Insurance</p>
                         </div>
@@ -39,7 +39,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg04} className="img-fluid" alt="Corporate Insurance" />
+                                <img src={SpecialititesImg04} className="img-fluid specialities" alt="Corporate Insurance" />
                             </div>
                             <p className="mb-0">Car Insurance</p>
                         </div>
@@ -48,7 +48,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg05} className="img-fluid" alt="Corporate Insurance" />
+                                <img src={SpecialititesImg05} className="img-fluid specialities" alt="Corporate Insurance" />
                             </div>
                             <p className="mb-0">Motorcycle Insurance</p>
                         </div>
@@ -57,7 +57,7 @@ function InsuranceList(){
                     <div className="col-md-3 mb-4">
                         <div className="speciality-box text-center p-4 border rounded bg-white">
                             <div className="speciality-img mb-3">
-                                <img src={SpecialititesImg06} className="img-fluid" alt="Corporate Insurance" />
+                                <img src={SpecialititesImg06} className="img-fluid specialities" alt="Corporate Insurance" />
                             </div>
                             <p className="mb-0">Life Insurance</p>
                         </div>

@@ -134,7 +134,7 @@ function TravelInsurance() {
                                   <img
                                     src={item.icon}
                                     alt={item.name}
-                                    className="mr-2"
+                                    className="mr-2 specialities"
                                     style={{ width: "24px" }}
                                   />
                                   {item.name}

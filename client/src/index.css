@@ -385,3 +385,11 @@ p {
     --accordion-btn-active-icon: #{escape-svg($accordion-button-active-icon-dark)};
   }
 }
+
+
+
+
+.specialities {
+  max-width: 64px !important;
+  max-height: 64px !important;
+}
