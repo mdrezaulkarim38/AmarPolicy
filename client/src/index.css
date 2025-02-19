@@ -168,6 +168,68 @@ p {
   color: white !important;
 }
 
+.stepper-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.step-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-grow: 1;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.step-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.step-item.active .step-circle {
+  background-color: #007bff;
+  color: white;
+}
+
+.step-line {
+  height: 3px;
+  width: 50px;
+  flex-grow: 1;
+  background-color: #ddd;
+  position: relative;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.active-line {
+  background-color: #007bff; /* Active step color */
+}
+
+.stepper-nav .step-wrapper:not(:last-child) {
+  margin-right: 20px; /* Adjust space between steps */
+}
+
+
 /*
 * accordion
 */
