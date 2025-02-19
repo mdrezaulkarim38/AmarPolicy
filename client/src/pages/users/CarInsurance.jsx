@@ -10,10 +10,15 @@ function CarInsurance() {
     setHasInsurance(event.target.value === "1"); // Check if "Yes" is selected
   };
 
+  const [mobile, setMobile] = useState("");
+
+  const handleSave = () => {
+    console.log("Phone number submitted:", mobile);
+  };
   const [seatValue, setSeatValue] = useState(0);
 
   const handleSeatChange = (event) => {
-    setSeatValue(event.target.value); // Update the seat value
+    setSeatValue(event.target.value);
   };
   const nextStep = () => setStep((prev) => prev + 1);
   const prevStep = () => setStep((prev) => prev - 1);
@@ -25,13 +30,39 @@ function CarInsurance() {
         <div className="row">
           <div className="col-12">
             <h1 className="h2 my-4">Car Insurance in Bangladesh</h1>
-            <p className="text-center">
-              <img
-                className="img-fluid"
-                src="https://bimafy.com/images/frontend/products/comprehensive_motor_feature.jpg"
-                alt="Motorcycle Insurance"
-              />
-            </p>
+            <div className="card text-left">
+              <div className="card-header">
+                <h3 className="text-success text-center">CAR INSURANCE</h3>
+              </div>
+              <div className="card-body">
+                <p className="card-text">
+                  Insure your vehicle for peace of mind!
+                </p>
+                <h4 className="card-title">
+                  Call us now for the best car insurance deals!
+                </h4>
+
+                <div className="contact-us mb-3 col-5">
+                  <div className="input-group">
+                    <input
+                      type="text"
+                      value={mobile}
+                      onChange={(e) => setMobile(e.target.value)}
+                      placeholder="Your Phone Number"
+                      className="form-control"
+                      id="validationDefaultUsername"
+                      aria-describedby="inputGroupPrepend2"
+                      required
+                    />
+                    <div className="input-group-append">
+                      <button className="btn btn-success" onClick={handleSave}>
+                        <span>Get Call</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="col-12 my-4">
             <div className="travel-search-box bg-white p-4 shadow-sm rounded">
@@ -92,9 +123,9 @@ function CarInsurance() {
                           />
                         </span>
                       </div>
-                        <p className="my-2">
-                          Passengers = Total {parseInt(seatValue) + 1} seats
-                        </p>
+                      <p className="my-2">
+                        Passengers = Total {parseInt(seatValue) + 1} seats
+                      </p>
                       <p className="h6 my-3">
                         * As per vehicle registration certificate
                       </p>
@@ -111,7 +142,8 @@ function CarInsurance() {
                 {step === 2 && (
                   <fieldset>
                     <h3 className="text-success mb-3 mt-3">
-                    What is the price of this vehicle? (as per purchase invoice)
+                      What is the price of this vehicle? (as per purchase
+                      invoice)
                     </h3>
                     <div className="col-2">
                       <input
