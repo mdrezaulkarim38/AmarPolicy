@@ -26,7 +26,7 @@ function Header() {
                         <Link to="/" className="menu-logo">
                             <img src={HeaderLogo} className="img-fluid" alt="Logo" />
                         </Link>
-                        <button id="menu_close" className="menu-close">
+                        <button id="menu_close" className="menu-close border-0 bg-white">
                             <i className="fas fa-times"></i>
                         </button>
                     </div>
