@@ -22,7 +22,7 @@ function FreedConn() {
                     <h1 className="pt-3 h3">FreedConn Bangladesh Warranty and Insurance Activation</h1>
                     <span className="pt-3 h6">
                         For more details regarding this insurance policy, please{' '}
-                        <a href="https://bimafy.com/channel/speedoz/plans" target="_blank" rel="noopener noreferrer">
+                        <a href="" target="_blank" rel="noopener noreferrer">
                             click here
                         </a>
                         .

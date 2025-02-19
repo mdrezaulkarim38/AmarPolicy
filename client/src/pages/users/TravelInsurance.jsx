@@ -6,6 +6,11 @@ import Header from "../../components/users/Header";
 import DImage from "../../assets/users/assets/img/doctors/doctor-08.jpg";
 import { Link } from "react-router-dom";
 
+import CardImageO1 from "../../assets/users/assets/img/specialities/specialities-01.png"
+import CardImageO2 from "../../assets/users/assets/img/specialities/specialities-02.png"
+import CardImageO3 from "../../assets/users/assets/img/specialities/specialities-03.png"
+import CardImageO4 from "../../assets/users/assets/img/specialities/specialities-04.png"
+
 function TravelInsurance() {
   const [step, setStep] = useState(1);
 
@@ -101,22 +106,22 @@ function TravelInsurance() {
                               {[
                                 {
                                   name: "Business/Holiday",
-                                  icon: "business_holiday.svg",
+                                  icon: CardImageO1,
                                   value: "business_and_holiday",
                                 },
                                 {
                                   name: "Study",
-                                  icon: "study.svg",
+                                  icon: CardImageO2,
                                   value: "study",
                                 },
                                 {
                                   name: "Employment",
-                                  icon: "worker.svg",
+                                  icon: CardImageO3,
                                   value: "employment",
                                 },
                                 {
                                   name: "Frequent Traveler",
-                                  icon: "frequent_traveling.svg",
+                                  icon: CardImageO4,
                                   value: "frequent_traveler",
                                 },
                               ].map((item) => (
@@ -127,7 +132,7 @@ function TravelInsurance() {
                                   onClick={nextStep}
                                 >
                                   <img
-                                    src={`https://bimafy.com/images/frontend/products/omc/${item.icon}`}
+                                    src={item.icon}
                                     alt={item.name}
                                     className="mr-2"
                                     style={{ width: "24px" }}

@@ -3,6 +3,7 @@ import Breadcrumb from "../../components/users/Breadcrumb";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
 import { Link } from "react-router-dom";
+import BannerImageMoto from "../../assets/users/assets/img/comprehensive_motor_feature.jpg"
 
 function MotorcycleInsurance() {
   const [step, setStep] = useState(1);
@@ -23,7 +24,7 @@ function MotorcycleInsurance() {
             <p className="text-center">
               <img
                 className="img-fluid"
-                src="https://bimafy.com/images/frontend/products/comprehensive_motor_feature.jpg"
+                src={BannerImageMoto}
                 alt="Motorcycle Insurance"
               />
             </p>
