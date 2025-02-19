@@ -25,6 +25,7 @@ import FreedConn from "./pages/users/FreedConn.jsx";
 import Blog from "./pages/users/Blog.jsx";
 import AboutUs from "./pages/users/AboutUs.jsx";
 import FAQ from "./pages/users/FAQ.jsx";
+import TermsAndService from "./pages/users/TermsAndService.jsx";
 
 function App() {
     return (
@@ -52,6 +53,7 @@ function App() {
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/faq" element={<FAQ />} />
+                <Route path="/terms-and-service" element={<TermsAndService />} />
             </Routes>
         </AuthProvider>
     );

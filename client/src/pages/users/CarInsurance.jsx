@@ -2,6 +2,7 @@ import { useState } from "react";
 import Breadcrumb from "../../components/users/Breadcrumb";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
+import { Link } from "react-router-dom";
 
 function CarInsurance() {
   const [step, setStep] = useState(1);
@@ -331,9 +332,9 @@ function CarInsurance() {
                         htmlFor="agree_to_tns"
                       >
                         I agree with the{" "}
-                        <a href="" target="_blank">
+                        <Link to="/terms-and-service" target="_blank">
                           Terms of Service
-                        </a>
+                        </Link>
                       </label>
                     </div>
                     <div className="buttons mt-4">

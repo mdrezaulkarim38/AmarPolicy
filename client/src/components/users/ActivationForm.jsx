@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 function ActivationForm() {
     const [formData, setFormData] = useState({
         name: '',
@@ -176,9 +177,9 @@ function ActivationForm() {
                 <div className="mt-3 form-group">
                     <small>
                         By clicking submit I am agreeing to the{' '}
-                        <a href="terms-of-service" target="_blank" rel="noopener noreferrer">
+                        <Link to="/terms-and-service" target="_blank" rel="noopener noreferrer">
                             Terms of Service
-                        </a>{' '}
+                        </Link>{' '}
                         and{' '}
                         <a href="channel/speedoz/plans" target="_blank" rel="noopener noreferrer">
                             insurance policy specific conditions
