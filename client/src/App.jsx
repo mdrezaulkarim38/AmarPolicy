@@ -26,6 +26,7 @@ import Blog from "./pages/users/Blog.jsx";
 import AboutUs from "./pages/users/AboutUs.jsx";
 import FAQ from "./pages/users/FAQ.jsx";
 import TermsAndService from "./pages/users/TermsAndService.jsx";
+import Plan from "./components/users/Plan.jsx";
 
 function App() {
     return (
@@ -54,6 +55,7 @@ function App() {
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/faq" element={<FAQ />} />
                 <Route path="/terms-and-service" element={<TermsAndService />} />
+                <Route path="/plan" element={<Plan />} />
             </Routes>
         </AuthProvider>
     );
