@@ -3,17 +3,18 @@ import Breadcrumb from "../../components/users/Breadcrumb";
 import FaqButton from "../../components/users/FaqButton";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
+import Plan from "../../components/users/Plan";
 import DImage from "../../assets/users/assets/img/doctors/doctor-08.jpg";
 import { Link } from "react-router-dom";
 
-import CardImageO1 from "../../assets/users/assets/img/specialities/specialities-01.png"
-import CardImageO2 from "../../assets/users/assets/img/specialities/specialities-02.png"
-import CardImageO3 from "../../assets/users/assets/img/specialities/specialities-03.png"
-import CardImageO4 from "../../assets/users/assets/img/specialities/specialities-04.png"
+import CardImageO1 from "../../assets/users/assets/img/specialities/specialities-01.png";
+import CardImageO2 from "../../assets/users/assets/img/specialities/specialities-02.png";
+import CardImageO3 from "../../assets/users/assets/img/specialities/specialities-03.png";
+import CardImageO4 from "../../assets/users/assets/img/specialities/specialities-04.png";
 
 function TravelInsurance() {
   const [step, setStep] = useState(1);
-
+  const [showPlans, setShowPlans] = useState(false);
   const nextStep = () => setStep((prev) => prev + 1);
   const prevStep = () => setStep((prev) => prev - 1);
 
@@ -60,213 +61,235 @@ function TravelInsurance() {
         <div className="row align-items-center">
           <div className="container content_padding_top content_padding_bottom">
             <div className="section-gap-2">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <img
-                      className="img-fluid travel-banner"
-                      src={DImage}
-                      alt="Travel Insurance"
-                    />
-                    <h3 className="travel-slogan mt-4">
-                      Ensure a safe trip with
-                      <br />
-                      <span className="font-weight-bold text-primary">
-                        Travel Insurance
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="travel-search-box bg-white p-4 shadow-sm rounded">
-                      <ul className="nav nav-tabs stepper-nav">
-                        {["1", "2", "3", "4"].map((num, index) => (
-                          <li key={index} className="step-wrapper">
-                            <div
-                              className={`step-item ${
-                                step >= index + 1 ? "active" : ""
-                              }`}
-                            >
-                              <div className="step-circle">{num}</div>
-                            </div>
-                            {index < 3 && (
-                              <div
-                                className={`step-line ${
-                                  step > index + 1 ? "active-line" : ""
-                                }`}
-                              ></div>
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                      <form className="travel-search-form">
-                        {step === 1 && (
-                          <fieldset>
-                            <h6 className="mb-3 mt-3">Select Travel Purpose</h6>
-                            <div className="option-list">
-                              {[
-                                {
-                                  name: "Business/Holiday",
-                                  icon: CardImageO1,
-                                  value: "business_and_holiday",
-                                },
-                                {
-                                  name: "Study",
-                                  icon: CardImageO2,
-                                  value: "study",
-                                },
-                                {
-                                  name: "Employment",
-                                  icon: CardImageO3,
-                                  value: "employment",
-                                },
-                                {
-                                  name: "Frequent Traveler",
-                                  icon: CardImageO4,
-                                  value: "frequent_traveler",
-                                },
-                              ].map((item) => (
-                                <button
-                                  key={item.value}
-                                  type="button"
-                                  className="btn btn-outline-primary btn-block text-left mb-3"
-                                  onClick={nextStep}
+              {!showPlans ? (
+                <>
+                  <div className="container">
+                    <div className="row">
+                      <div className="col-lg-6">
+                        <img
+                          className="img-fluid travel-banner"
+                          src={DImage}
+                          alt="Travel Insurance"
+                        />
+                        <h3 className="travel-slogan mt-4">
+                          Ensure a safe trip with
+                          <br />
+                          <span className="font-weight-bold text-primary">
+                            Travel Insurance
+                          </span>
+                        </h3>
+                      </div>
+                      <div className="col-lg-6">
+                        <div className="travel-search-box bg-white p-4 shadow-sm rounded">
+                          <ul className="nav nav-tabs stepper-nav">
+                            {["1", "2", "3", "4"].map((num, index) => (
+                              <li key={index} className="step-wrapper">
+                                <div
+                                  className={`step-item ${
+                                    step >= index + 1 ? "active" : ""
+                                  }`}
                                 >
-                                  <img
-                                    src={item.icon}
-                                    alt={item.name}
-                                    className="mr-2 specialities"
-                                    style={{ width: "24px" }}
+                                  <div className="step-circle">{num}</div>
+                                </div>
+                                {index < 3 && (
+                                  <div
+                                    className={`step-line ${
+                                      step > index + 1 ? "active-line" : ""
+                                    }`}
+                                  ></div>
+                                )}
+                              </li>
+                            ))}
+                          </ul>
+                          <form className="travel-search-form">
+                            {step === 1 && (
+                              <fieldset>
+                                <h6 className="mb-3 mt-3">
+                                  Select Travel Purpose
+                                </h6>
+                                <div className="option-list">
+                                  {[
+                                    {
+                                      name: "Business/Holiday",
+                                      icon: CardImageO1,
+                                      value: "business_and_holiday",
+                                    },
+                                    {
+                                      name: "Study",
+                                      icon: CardImageO2,
+                                      value: "study",
+                                    },
+                                    {
+                                      name: "Employment",
+                                      icon: CardImageO3,
+                                      value: "employment",
+                                    },
+                                    {
+                                      name: "Frequent Traveler",
+                                      icon: CardImageO4,
+                                      value: "frequent_traveler",
+                                    },
+                                  ].map((item) => (
+                                    <button
+                                      key={item.value}
+                                      type="button"
+                                      className="btn btn-outline-primary btn-block text-left mb-3"
+                                      onClick={nextStep}
+                                    >
+                                      <img
+                                        src={item.icon}
+                                        alt={item.name}
+                                        className="mr-2 specialities"
+                                        style={{ width: "24px" }}
+                                      />
+                                      {item.name}
+                                    </button>
+                                  ))}
+                                </div>
+                              </fieldset>
+                            )}
+                            {step === 2 && (
+                              <fieldset>
+                                <h6 className="mb-3 mt-3">
+                                  How many travelers?
+                                </h6>
+                                <input
+                                  type="number"
+                                  className="form-control mb-4"
+                                  min="1"
+                                  max="9"
+                                  defaultValue="1"
+                                />
+                                <h6 className="mb-4">Enter Date of Birth</h6>
+                                <input
+                                  type="date"
+                                  className="form-control mb-4"
+                                />
+                                <div className="buttons mt-4">
+                                  <button
+                                    type="button"
+                                    className="btn btn-secondary"
+                                    onClick={prevStep}
+                                  >
+                                    Back
+                                  </button>
+                                  <button
+                                    type="button"
+                                    className="btn btn-primary float-right"
+                                    onClick={nextStep}
+                                  >
+                                    Next
+                                  </button>
+                                </div>
+                              </fieldset>
+                            )}
+                            {step === 3 && (
+                              <fieldset>
+                                <h6 className="mb-3 mt-3">
+                                  Select Travel Destination
+                                </h6>
+                                <select className="form-control mb-4">
+                                  <option value="ASC">
+                                    All Schengen Countries
+                                  </option>
+                                  <option value="ANSC">
+                                    All Non-Schengen Countries
+                                  </option>
+                                </select>
+                                <h6 className="mb-4">Date of Travel</h6>
+                                <input
+                                  type="date"
+                                  className="form-control mb-4"
+                                />
+                                <h6 className="mb-4">Policy Duration (Days)</h6>
+                                <input
+                                  type="number"
+                                  className="form-control mb-4"
+                                  min="1"
+                                />
+                                <div className="buttons mt-4">
+                                  <button
+                                    type="button"
+                                    className="btn btn-secondary"
+                                    onClick={prevStep}
+                                  >
+                                    Back
+                                  </button>
+                                  <button
+                                    type="button"
+                                    className="btn btn-primary float-right"
+                                    onClick={nextStep}
+                                  >
+                                    Next
+                                  </button>
+                                </div>
+                              </fieldset>
+                            )}
+                            {step === 4 && (
+                              <fieldset>
+                                <h6 className="mt-3 mb-3">
+                                  Enter Your Details
+                                </h6>
+                                <input
+                                  type="text"
+                                  className="form-control mb-4"
+                                  placeholder="Your Name"
+                                  required
+                                />
+                                <input
+                                  type="text"
+                                  className="form-control mb-4"
+                                  placeholder="Mobile Number"
+                                  required
+                                />
+                                <div className="form-check mb-4">
+                                  <input
+                                    type="checkbox"
+                                    className="form-check-input"
+                                    id="agree_to_tns"
+                                    required
                                   />
-                                  {item.name}
-                                </button>
-                              ))}
-                            </div>
-                          </fieldset>
-                        )}
-                        {step === 2 && (
-                          <fieldset>
-                            <h6 className="mb-3 mt-3">How many travelers?</h6>
-                            <input
-                              type="number"
-                              className="form-control mb-4"
-                              min="1"
-                              max="9"
-                              defaultValue="1"
-                            />
-                            <h6 className="mb-4">Enter Date of Birth</h6>
-                            <input type="date" className="form-control mb-4" />
-                            <div className="buttons mt-4">
-                              <button
-                                type="button"
-                                className="btn btn-secondary"
-                                onClick={prevStep}
-                              >
-                                Back
-                              </button>
-                              <button
-                                type="button"
-                                className="btn btn-primary float-right"
-                                onClick={nextStep}
-                              >
-                                Next
-                              </button>
-                            </div>
-                          </fieldset>
-                        )}
-                        {step === 3 && (
-                          <fieldset>
-                            <h6 className="mb-3 mt-3">
-                              Select Travel Destination
-                            </h6>
-                            <select className="form-control mb-4">
-                              <option value="ASC">
-                                All Schengen Countries
-                              </option>
-                              <option value="ANSC">
-                                All Non-Schengen Countries
-                              </option>
-                            </select>
-                            <h6 className="mb-4">Date of Travel</h6>
-                            <input type="date" className="form-control mb-4" />
-                            <h6 className="mb-4">Policy Duration (Days)</h6>
-                            <input
-                              type="number"
-                              className="form-control mb-4"
-                              min="1"
-                            />
-                            <div className="buttons mt-4">
-                              <button
-                                type="button"
-                                className="btn btn-secondary"
-                                onClick={prevStep}
-                              >
-                                Back
-                              </button>
-                              <button
-                                type="button"
-                                className="btn btn-primary float-right"
-                                onClick={nextStep}
-                              >
-                                Next
-                              </button>
-                            </div>
-                          </fieldset>
-                        )}
-                        {step === 4 && (
-                          <fieldset>
-                            <h6 className="mt-3 mb-3">Enter Your Details</h6>
-                            <input
-                              type="text"
-                              className="form-control mb-4"
-                              placeholder="Your Name"
-                              required
-                            />
-                            <input
-                              type="text"
-                              className="form-control mb-4"
-                              placeholder="Mobile Number"
-                              required
-                            />
-                            <div className="form-check mb-4">
-                              <input
-                                type="checkbox"
-                                className="form-check-input"
-                                id="agree_to_tns"
-                                required
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="agree_to_tns"
-                              >
-                                I agree with the{" "}
-                                <Link to="/terms-and-service" target="_blank">
-                                  Terms of Service
-                                </Link>
-                              </label>
-                            </div>
-                            <div className="buttons mt-4">
-                              <button
-                                type="button"
-                                className="btn btn-secondary"
-                                onClick={prevStep}
-                              >
-                                Back
-                              </button>
-                              <button
-                                type="submit"
-                                className="btn btn-primary float-right"
-                              >
-                                See Plans{" "}
-                                <i className="fas fa-arrow-right ml-2"></i>
-                              </button>
-                            </div>
-                          </fieldset>
-                        )}
-                      </form>
+                                  <label
+                                    className="form-check-label"
+                                    htmlFor="agree_to_tns"
+                                  >
+                                    I agree with the{" "}
+                                    <Link
+                                      to="/terms-and-service"
+                                      target="_blank"
+                                    >
+                                      Terms of Service
+                                    </Link>
+                                  </label>
+                                </div>
+                                <div className="buttons mt-4">
+                                  <button
+                                    type="button"
+                                    className="btn btn-secondary"
+                                    onClick={prevStep}
+                                  >
+                                    Back
+                                  </button>
+                                  <button
+                                    type="submit"
+                                    className="btn btn-primary float-right"
+                                    onClick={() => setShowPlans(true)}
+                                  >
+                                    See Plans{" "}
+                                    <i className="fas fa-arrow-right ml-2"></i>
+                                  </button>
+                                </div>
+                              </fieldset>
+                            )}
+                          </form>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                </>
+              ) : (
+                <Plan />
+              )}
             </div>
           </div>
         </div>
