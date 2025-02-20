@@ -1,6 +1,6 @@
-import SpecialImg01 from "./../../assets/users/assets/img/specialities/specialities-01.png"
-import SpecialImg02 from "./../../assets/users/assets/img/specialities/specialities-02.png"
-import SpecialImg03 from "./../../assets/users/assets/img/specialities/specialities-03.png"
+import SpecialImg01 from "./../../assets/users/assets/img/specialities/specialities-12.png"
+import SpecialImg02 from "./../../assets/users/assets/img/specialities/specialities-11.png"
+import SpecialImg03 from "./../../assets/users/assets/img/specialities/specialities-10.png"
 
 function HowWorks() {
     return (

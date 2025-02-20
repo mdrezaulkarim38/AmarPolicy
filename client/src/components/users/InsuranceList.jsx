@@ -3,7 +3,7 @@ import SpecialititesImg02 from "./../../assets/users/assets/img/specialities/spe
 import SpecialititesImg03 from "./../../assets/users/assets/img/specialities/specialities-03.png"
 import SpecialititesImg04 from "./../../assets/users/assets/img/specialities/specialities-04.png"
 import SpecialititesImg05 from "./../../assets/users/assets/img/specialities/specialities-05.png"
-import SpecialititesImg06 from "./../../assets/users/assets/img/specialities/specialities-05.png"
+import SpecialititesImg06 from "./../../assets/users/assets/img/specialities/specialities-06.png"
 function InsuranceList(){
     return (
         <section className="section section-specialities">
