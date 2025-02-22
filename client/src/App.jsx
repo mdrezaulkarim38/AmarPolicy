@@ -29,6 +29,9 @@ import TermsAndService from "./pages/users/TermsAndService.jsx";
 import InsuranceBlogPage from "./pages/users/InsuranceBlogPage.jsx";
 import InsuranceBlogPageCompare from "./pages/users/InsuranceBlogPageCompare.jsx";
 import InsuranceBlogPageAI from "./pages/users/InsuranceBlogPageAI.jsx";
+import NewsMotor from "./pages/users/NewsMotor.jsx";
+import NewsCar from "./pages/users/NewsCar.jsx";
+import NewsAccident from "./pages/users/NewsAccident.jsx";
 
 function App() {
     return (
@@ -60,6 +63,9 @@ function App() {
                 <Route path="/InsuranceBlogPage" element={<InsuranceBlogPage />} />
                 <Route path="/InsuranceBlogPageAI" element={<InsuranceBlogPageAI />} />
                 <Route path="/InsuranceBlogPageCompare" element={<InsuranceBlogPageCompare />} />
+                <Route path="/news1" element={<NewsMotor />} />
+                <Route path="/news2" element={<NewsCar />} />
+                <Route path="/news3" element={<NewsAccident />} />
             </Routes>
         </AuthProvider>
     );

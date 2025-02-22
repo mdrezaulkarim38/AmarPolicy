@@ -11,7 +11,7 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <Link to="/blog">
+                <Link to="/news1">
                   <img
                     className="img-fluid"
                     alt="User Image"
@@ -27,7 +27,7 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <Link to="/blog" className="btn book-btn">
+                  <Link to="/news1" className="btn book-btn">
                     Read More.....
                   </Link>
                 </div>
@@ -38,7 +38,7 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <Link href="">
+                <Link href="/news2">
                   <img
                     className="img-fluid"
                     alt="User Image"
@@ -54,7 +54,7 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <Link to="/blog" className="btn book-btn">
+                  <Link to="/news2" className="btn book-btn">
                     Read More.....
                   </Link>
                 </div>
@@ -65,7 +65,7 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <Link to="/blog">
+                <Link to="/news3">
                   <img
                     className="img-fluid"
                     alt="User Image"
@@ -81,7 +81,7 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <Link to="/blog" className="btn book-btn">
+                  <Link to="/news3" className="btn book-btn">
                     Read More.....
                   </Link>
                 </div>

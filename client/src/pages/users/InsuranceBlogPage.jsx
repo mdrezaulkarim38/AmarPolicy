@@ -8,7 +8,7 @@ const InsuranceBlogPage = () => {
     <div className="main-wrapper">
       <Header />
       <Breadcrumb pageName="Top Rated Insurance Companies" />
-      <div className="container py-5">
+      <div className="container py-3">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <header className="text-center mb-4">
