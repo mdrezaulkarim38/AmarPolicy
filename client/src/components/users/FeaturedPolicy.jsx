@@ -42,7 +42,7 @@ function FeaturedPolicy () {
         <section className="section section-doctor">
             <div className="container-fluid">
                 <h2 className="text-center mb-4">Featured Policies</h2>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     {policies.map((policy, index) => (
                         <div className="col-lg-3 col-md-6 mb-4" key={index}>
                             <div className="profile-widget">

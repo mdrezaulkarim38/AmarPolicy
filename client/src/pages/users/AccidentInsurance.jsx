@@ -2,7 +2,7 @@ import Breadcrumb from "../../components/users/Breadcrumb";
 import FaqButton from "../../components/users/FaqButton";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
-import DImage from "../../assets/users/assets/img/doctors/doctor-08.jpg";
+import DImage from "../../assets/users/assets/img/doctors/doctor-01.jpg";
 
 function AccidentInsurance () {
     const faqData = [
