@@ -19,7 +19,7 @@ function Footer() {
                       safeguard your future with effortless digital insurance
                       solutions at your hand.
                     </p>
-                    <div className="social-icon">
+                    {/* <div className="social-icon">
                       <ul>
                         <li>
                           <a href="#" target="_blank">
@@ -47,7 +47,7 @@ function Footer() {
                           </a>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

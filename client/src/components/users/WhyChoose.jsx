@@ -8,7 +8,7 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
@@ -27,7 +27,7 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
@@ -46,7 +46,7 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"

@@ -8,7 +8,7 @@ function UpdateNews() {
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile.html">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
@@ -21,7 +21,7 @@ function UpdateNews() {
                                     বাইকার বীমাঃ মোটরসাইকেল ব্যবহারকারীদের জন্য দূর্ঘটনা বীমা
                                 </h5>
                                 <div className="col-6">
-                                    <a href="booking.html" className="btn book-btn">
+                                    <a href="" className="btn book-btn">
                                         Read More.....
                                     </a>
                                 </div>
@@ -32,7 +32,7 @@ function UpdateNews() {
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile.html">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
@@ -45,7 +45,7 @@ function UpdateNews() {
                                     বাইকার বীমাঃ মোটরসাইকেল ব্যবহারকারীদের জন্য দূর্ঘটনা বীমা
                                 </h5>
                                 <div className="col-6">
-                                    <a href="booking.html" className="btn book-btn">
+                                    <a href="" className="btn book-btn">
                                         Read More.....
                                     </a>
                                 </div>
@@ -56,7 +56,7 @@ function UpdateNews() {
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="doctor-profile.html">
+                                <a href="">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
@@ -69,7 +69,7 @@ function UpdateNews() {
                                     বাইকার বীমাঃ মোটরসাইকেল ব্যবহারকারীদের জন্য দূর্ঘটনা বীমা
                                 </h5>
                                 <div className="col-6">
-                                    <a href="booking.html" className="btn book-btn">
+                                    <a href="" className="btn book-btn">
                                         Read More.....
                                     </a>
                                 </div>

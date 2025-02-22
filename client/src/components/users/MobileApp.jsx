@@ -9,11 +9,12 @@ function MobileApp(){
                             src={MobileAppImg}
                             className="img-fluid"
                             alt="Feature"
+                            style={{maxWidth: "421px", maxHeight: "376px"}}
                         />
                     </div>
                     <div className="col-md-7">
                         <div className="section-header">
-                            <h2 className="mt-2">Get the 'Amar Policy' Mobile App now!</h2>
+                            <h2 className="mt-2">Get the Amar Policy Mobile App now!</h2>
                             <p>Get access to all your insurance needs anytime, anywhere</p>
                         </div>
 

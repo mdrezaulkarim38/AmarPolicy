@@ -11,12 +11,12 @@ import ImageDoctor05 from "./../../assets/users/assets/img/doctors/doctor-05.jpg
 import ImageDoctor06 from "./../../assets/users/assets/img/doctors/doctor-06.jpg";
 
 const doctors = [
-    { img: ImageDoctor01, link: "doctor-profile-1" },
-    { img: ImageDoctor02, link: "doctor-profile-2" },
-    { img: ImageDoctor03, link: "doctor-profile-3" },
-    { img: ImageDoctor04, link: "doctor-profile-4" },
-    { img: ImageDoctor05, link: "doctor-profile-5" },
-    { img: ImageDoctor06, link: "doctor-profile-6" },
+    { img: ImageDoctor01, link: "" },
+    { img: ImageDoctor02, link: "" },
+    { img: ImageDoctor03, link: "" },
+    { img: ImageDoctor04, link: "" },
+    { img: ImageDoctor05, link: "" },
+    { img: ImageDoctor06, link: "" },
 ];
 
 function OurClient() {

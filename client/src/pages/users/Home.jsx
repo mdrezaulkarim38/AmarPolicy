@@ -5,7 +5,7 @@ import HomeBanner from "../../components/users/HomeBanner";
 import HowWorks from "../../components/users/HowWorks";
 import InsuranceList from "../../components/users/InsuranceList";
 import MobileApp from "../../components/users/MobileApp";
-import OurClient from "../../components/users/OurClient";
+// import OurClient from "../../components/users/OurClient";
 import RequestCallForm from "../../components/users/RequestCallForm";
 import SmeCorporate from "../../components/users/SmeCorporate";
 import UpdateNews from "../../components/users/UpdateNews";
@@ -23,7 +23,7 @@ function Home() {
             <MobileApp />
             <FeaturedPolicy />
             <WhyChoose />
-            <OurClient />
+            {/* <OurClient /> */}
             <UpdateNews />
             <Footer />
         </div>
