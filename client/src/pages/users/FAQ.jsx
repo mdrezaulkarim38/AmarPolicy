@@ -3,7 +3,7 @@ import Contact from "../../components/users/Contact";
 import FaqButton from "../../components/users/FaqButton";
 import Footer from "../../components/users/Footer";
 import Header from "../../components/users/Header";
-import OurClient from "../../components/users/OurClient";
+// import OurClient from "../../components/users/OurClient";
 
 function FAQ() {
   const faqData = [
@@ -56,7 +56,7 @@ function FAQ() {
       </div>
 
       <Contact contactTile="Get In Touch" />
-      <OurClient />
+      {/* <OurClient /> */}
       <Footer />
     </div>
   );
