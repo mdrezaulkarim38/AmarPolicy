@@ -1,4 +1,6 @@
-import DoctorImage from "./../../assets/users/assets/img/doctors/doctor-01.jpg"
+import DoctorImage from "./../../assets/users/assets/img/2149631022.jpg"
+import AIImage from "./../../assets/users/assets/img/AI.jpg"
+import CompareImage from "./../../assets/users/assets/img/compare.jpg"
 function WhyChoose(){
     return (
         <section className="section section-features">
@@ -18,7 +20,7 @@ function WhyChoose(){
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">
-                                    Top Rated Insurance companies with a proven track record.
+                                    We are align with Top Rated Insurance companies with a proven track record.
                                 </p>
                             </div>
                         </div>
@@ -31,13 +33,13 @@ function WhyChoose(){
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
-                                        src={DoctorImage}
+                                        src={AIImage}
                                     />
                                 </a>
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">
-                                    More than 450000 people covered with claims every day.
+                                    We use Artificial Intelligence in insurance claiming  Process
                                 </p>
                             </div>
                         </div>
@@ -50,13 +52,13 @@ function WhyChoose(){
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
-                                        src={DoctorImage}
+                                        src={CompareImage}
                                     />
                                 </a>
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">
-                                    Widest range of policies with free claims assistance
+                                Easily Compare between the top most insurance company and chose
                                 </p>
                             </div>
                         </div>
