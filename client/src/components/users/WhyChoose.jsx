@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DoctorImage from "./../../assets/users/assets/img/2149631022.jpg"
 import AIImage from "./../../assets/users/assets/img/AI.jpg"
 import CompareImage from "./../../assets/users/assets/img/compare.jpg"
@@ -10,13 +11,13 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="">
+                                <Link to="/InsuranceBlogPage">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
                                         src={DoctorImage}
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">
@@ -29,13 +30,13 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="">
+                                <Link to="/InsuranceBlogPageAI">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
                                         src={AIImage}
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">
@@ -48,13 +49,13 @@ function WhyChoose(){
                     <div className="col-lg-4 col-md-6 mb-4">
                         <div className="profile-widget">
                             <div className="doc-img">
-                                <a href="">
+                                <Link to="/InsuranceBlogPageCompare">
                                     <img
                                         className="img-fluid"
                                         alt="User Image"
                                         src={CompareImage}
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <div className="text-center pro-content">
                                 <p className="speciality">

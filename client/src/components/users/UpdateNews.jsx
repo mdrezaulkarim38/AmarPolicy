@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DoctorImage from "./../../assets/users/assets/img/doctors/doctor-01.jpg";
 import DoctorImage2 from "./../../assets/users/assets/img/doctors/doctor-02.jpg";
 import MotorImage from "./../../assets/users/assets/img/doctors/Motor.jpg";
@@ -10,13 +11,13 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <a href="">
+                <Link to="/blog">
                   <img
                     className="img-fluid"
                     alt="User Image"
                     src={MotorImage}
                   />
-                </a>
+                </Link>
               </div>
               <div className="text-left pro-content">
                 <h5 className="speciality font-weight-bold">
@@ -26,9 +27,9 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <a href="" className="btn book-btn">
+                  <Link to="/blog" className="btn book-btn">
                     Read More.....
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -37,13 +38,13 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <a href="">
+                <Link href="">
                   <img
                     className="img-fluid"
                     alt="User Image"
                     src={DoctorImage}
                   />
-                </a>
+                </Link>
               </div>
               <div className="text-left pro-content">
                 <h5 className="speciality font-weight-bold">
@@ -53,9 +54,9 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <a href="" className="btn book-btn">
+                  <Link to="/blog" className="btn book-btn">
                     Read More.....
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,13 +65,13 @@ function UpdateNews() {
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="profile-widget">
               <div className="doc-img">
-                <a href="">
+                <Link to="/blog">
                   <img
                     className="img-fluid"
                     alt="User Image"
                     src={DoctorImage2}
                   />
-                </a>
+                </Link>
               </div>
               <div className="text-left pro-content">
                 <h5 className="speciality font-weight-bold">
@@ -80,9 +81,9 @@ function UpdateNews() {
                   </span>
                 </h5>
                 <div className="col-6">
-                  <a href="" className="btn book-btn">
+                  <Link to="/blog" className="btn book-btn">
                     Read More.....
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
