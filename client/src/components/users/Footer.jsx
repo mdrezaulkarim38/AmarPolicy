@@ -11,7 +11,7 @@ function Footer() {
               <div className="col-lg-4 col-md-6">
                 <div className="footer-widget footer-about">
                   <div className="footer-logo">
-                    <img src={FooterImage} alt="logo" className="img-fluid" />
+                    <img src={FooterImage} alt="logo" className="img-fluid" style={{maxWidth:"225px"}}/>
                   </div>
                   <div className="footer-about-content">
                     <p>

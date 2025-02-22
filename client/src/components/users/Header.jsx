@@ -72,7 +72,7 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="has-submenu">
+            <li className="has-submenu d-none">
               <Link to="/enrollments">
                 Activate <i className="fas fa-chevron-down"></i>
               </Link>
