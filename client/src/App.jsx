@@ -16,7 +16,7 @@ import CarInsurance from "./pages/users/CarInsurance";
 import { AuthProvider } from "./context/AuthContext";
 import Product from "./pages/users/Product";
 import Enrollments from "./pages/users/Enrollments";
-import Speedoz from "./pages/users/speedoz";
+import Speedoz from "./pages/users/Speedoz";
 // import PrivateRoute from "./routes/PrivateRoute.jsx";
 import MTSpeedoz from "./pages/users/MTSpeedoz.jsx";
 import Gearx from "./pages/users/Gearx.jsx";
