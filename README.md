@@ -41,7 +41,6 @@ AmarPolicy is a web application where the frontend is built using React.js and t
   /Models         # Data Models
   /Services       # Business Logic Services
   /Repositories   # Data Access Layer
-  /CQRS           # Command and Query Handlers
   /Migrations     # EF Core Migrations
   /Configurations # App Configurations
 ```
