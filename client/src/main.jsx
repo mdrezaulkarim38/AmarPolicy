@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.js"
-import './assets/users/assets/js/jquery.min.js'
 import './assets/users/assets/js/script.js'
 import './index.css'
 import App from './App.jsx'

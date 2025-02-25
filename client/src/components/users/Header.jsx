@@ -72,7 +72,7 @@ function Header() {
                 </li>
               </ul>
             </li>
-            <li className="has-submenu d-none">
+            {/* <li className="has-submenu d-none">
               <Link to="/enrollments">
                 Activate <i className="fas fa-chevron-down"></i>
               </Link>
@@ -93,7 +93,7 @@ function Header() {
                   <Link to="/freedconn">FreedConn Bangladesh</Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li>
               <Link to="/login" rel="noopener noreferrer">
                 Claims
